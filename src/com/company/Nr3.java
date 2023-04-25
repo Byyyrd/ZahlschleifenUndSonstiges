@@ -11,13 +11,9 @@ public class Nr3 {
         }
     }
     // b)
-    public static void rectangleStarsSave(int width, int height){
-        if (width > 0 && height > 0){
-            rectangleStars(width,height);
-        }else {
-            throw new IllegalArgumentException("Width and Height must be greater than zero");
-        }
-    }
+    public static void rectangleStarsSave(int width, int height){if (width > 0 && height > 0) rectangleStars(width,height);}
+
+
     // c)
     public static void triangleStars(int width){
         for (int i = 1;i <= width;i++){
